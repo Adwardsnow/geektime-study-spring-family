@@ -18,7 +18,8 @@ public class DatasourceApplication implements CommandLineRunner {
     }
 
     @Override
-    public void run(String... args) throws Exception {
+    public void run(String... args) {
         System.err.println(dataSource.toString());
     }
+
 }
